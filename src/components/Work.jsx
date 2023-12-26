@@ -65,8 +65,8 @@ const Work = () => {
                 Javascript / React App
               </span>
               <div className="pt-8 text-center">
-              <a href="https://iridescent-panda-8f1d82.netlify.app/">
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://iridescent-panda-8f1d82.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
@@ -74,8 +74,8 @@ const Work = () => {
             </div>
           </div>
         </div>
-                {/* CONTAINER gets up to 3 columns when need to add new work just copy the whole grid until I get 3 columns then copy the container(3 grids, 3 more projects) */}
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-4">
+        {/* CONTAINER gets up to 3 columns when need to add new work just copy the whole grid until I get 3 columns then copy the container(3 grids, 3 more projects) */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-4">
           {/* GRID ITEM */}
           <div
             style={{ backgroundImage: `url(${harry})` }}
@@ -102,7 +102,7 @@ const Work = () => {
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-              JavaScript Game App
+                JavaScript Game App
               </span>
               <div className="pt-8 text-center">
                 <a href="https://paper-scissors-rock-vercel.vercel.app/">
@@ -120,11 +120,11 @@ const Work = () => {
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-              React Game App
+                React Game App
               </span>
               <div className="pt-8 text-center">
-              <a href="https://extraordinary-sfogliatella-3ed53c.netlify.app/">
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href="https://extraordinary-sfogliatella-3ed53c.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
