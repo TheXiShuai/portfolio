@@ -3,8 +3,8 @@ import pinned from "../assets/pinnedFiction.png";
 import wild from "../assets/wildxperience.png";
 import harry from "../assets/HARRY.png";
 import carhub from "../assets/carhub.png";
-import prs from "../assets/prs.png";
 import stack from "../assets/stack.png";
+import recipe from "../assets/recipe.png";
 
 const Work = () => {
   return (
@@ -96,16 +96,16 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${prs})` }}
+            style={{ backgroundImage: `url(${recipe})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                JavaScript Game App
+                React App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://paper-scissors-rock-vercel.vercel.app/">
+                <a href="https://recipes-app-kappa-jet.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
