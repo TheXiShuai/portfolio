@@ -3,7 +3,7 @@ import pinned from "../assets/pinnedFiction.png";
 import wild from "../assets/wildxperience.png";
 import harry from "../assets/HARRY.png";
 import carhub from "../assets/carhub.png";
-import stack from "../assets/stack.png";
+import aiguapure from "../assets/aiguapure.png";
 import recipe from "../assets/recipe.png";
 
 const Work = () => {
@@ -38,13 +38,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${pinned})` }}
+            style={{ backgroundImage: `url(${aiguapure})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                HandleBars App
+                WP/ PHP App
               </span>
               <div className="pt-8 text-center">
                 <a href="https://pinnedfictionfs.adaptable.app/">
@@ -62,7 +62,7 @@ const Work = () => {
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Javascript / React App
+                React App
               </span>
               <div className="pt-8 text-center">
                 <a href="https://iridescent-panda-8f1d82.netlify.app/">
@@ -78,13 +78,13 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pt-4">
           {/* GRID ITEM */}
           <div
-            style={{ backgroundImage: `url(${harry})` }}
+            style={{ backgroundImage: `url(${pinned})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                JavaScript Game App
+                Handlebars App
               </span>
               <div className="pt-8 text-center">
                 <a href="https://thexishuai.github.io/firstGameProject/">
@@ -114,13 +114,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${stack})` }}
+            style={{ backgroundImage: `url(${harry})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* //HOVER EFECTS */}
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Game App
+                Javascript Game App
               </span>
               <div className="pt-8 text-center">
                 <a href="https://extraordinary-sfogliatella-3ed53c.netlify.app/">

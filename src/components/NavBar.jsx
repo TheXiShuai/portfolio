@@ -1,11 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/LOGO.png";
@@ -17,7 +12,12 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img className="h-full flex justify-between items-center " src={Logo} alt="Logo Image" style={{ width: "200px"}} />
+        <img
+          className="h-full flex justify-between items-center "
+          src={Logo}
+          alt="Logo Image"
+          style={{ width: "200px" }}
+        />
       </div>
       {/* NAVBAR MENU */}
 
@@ -51,7 +51,7 @@ const NavBar = () => {
 
       {/* HAMBURGER */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? < FaTimes/> : <FaBars />}
+        {!nav ? <FaTimes /> : <FaBars />}
       </div>
       {/* MOBILE MENU */}
       <ul
@@ -62,27 +62,27 @@ const NavBar = () => {
         }
       >
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick}  to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Tech Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick}  to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -109,12 +109,15 @@ const NavBar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f2b]">
-          <Link to="contact" smooth={true} duration={500}
-              className="flex justify-between items-center w-full text-gray-300">
-
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="flex justify-between items-center w-full text-gray-300"
+            >
               Email
               <HiOutlineMail size={30} />
-              </Link>
+            </Link>
           </li>
         </ul>
       </div>
