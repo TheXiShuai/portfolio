@@ -47,7 +47,7 @@ const Work = () => {
                 WP/ PHP App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://pinnedfictionfs.adaptable.app/">
+                <a href="http://aiguapure.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -87,7 +87,7 @@ const Work = () => {
                 Handlebars App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://thexishuai.github.io/firstGameProject/">
+                <a href="https://pinnedfictionfs.adaptable.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -123,7 +123,7 @@ const Work = () => {
                 Javascript Game App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://extraordinary-sfogliatella-3ed53c.netlify.app/">
+                <a href="https://thexishuai.github.io/firstGameProject/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
